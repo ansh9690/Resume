@@ -7,8 +7,43 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <title>Resume</title>
+    <style>
+      .vl {
+        border-left: 2px solid black;
+        height: 200px;
+        top: 0;
+      }
+      h3{
+        margin-bottom: 50px;
+
+      }
+      .social-icons a {
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        background-color: #495057;
+        color: #fff !important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-right: .5rem;
+      }
+  
+      .social-icons a:hover {
+        background-color: #34baeb;
+      }
+  
+      .footer {
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+      }
+    </style>
   </head>
   <body>
     <section class="text-center container-fluid" style="background-color: rgb(163, 31, 31);">
@@ -28,7 +63,7 @@
       </nav>
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <img src="profile.png" class="img-thumbnail" alt="..." style="height: 200px;">
+          <img src="ansh.jpg" class="shadow rounded" alt="..." style="height: 200px;">
           <h1 class="font-weight-light">Album example</h1>
           <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
           <p>
@@ -41,29 +76,30 @@
     <section>
       <div class="container">
         <div class="shadow-lg p-3 mb-5 mt-5 bg-white rounded">
-          <div class="w-100 mt-5" style="height: 300px;">
+          <div class="w-100 mt-5" style="height: 200px;">
             <div class="row">
               <div class="col-md-6">
                 <h5 class="card-title">About</h5>
+                <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
+                <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, 
+                  Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience</p>
               </div>
               <div class="col-md-6">
                 <h5 class="card-title">Basic Information</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Skill -->
-    <section>
-      <h3 class="mt-5 text-center">Experience</h3>
-      <div class="container">
-        <div class="shadow-lg p-3 mb-5 mt-5 bg-white rounded">
-          <div class="w-100 mt-5" style="height: 300px;">
-            <div class="row">
-              <div class="col-md-6">
-              </div>
-              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h5>AGE</h5>
+                    <h5>Email</h5>
+                    <h5>Phone</h5>
+                    <h5>Address</h5>
+                  </div>
+                  <div class="col-md-8">
+                    <p>22</p>
+                    <p>anshuprakash8445@gmail.com</p>
+                    <p>9690834694</p>
+                    <p>Jabalpur</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -71,61 +107,157 @@
       </div>
     </section>
     <!-- Education -->
-    <section>
-      <h3 class="mt-5 text-center">Education</h3>
-      <div class="container">
-        <div class="shadow-sm p-3 mb-5 bg-white rounded" style="height: 100px;">PDPM Indian Institute of Information Technology, Jabalpur July 2017 - Present
-          Bachelor of Technology CPI: 6.5/10
-          Department of Computer Science and Engineering</div>
-        <div class="shadow-sm p-3 mb-5 bg-white rounded" style="height: 100px;">Small shadow</div>
-        <div class="shadow-sm p-3 mb-5 bg-white rounded" style="height: 100px;">Small shadow</div>
+    <section style="background-color: white;">
+      <div class="shadow-none p-3 bg-light rounded">
+      <h3 class="text-center mt-4">Education <hr size="3" class="mt-3" style="width: 20%; margin: auto;"></h3>
+      <div class="container" style="width: 50%;">
+        <div class="row g-0">
+          <div class="col-md-10">
+            <h5 class="card-title">Indian Institute of Information Technology, Design and Manufacturing, Jabalpur</h5>
+            <p class="card-text">Bachelor of Technology in Computer Science and Engineering</p>
+            <h6>An Institute of National Importance, established by Ministry of Human Resource Development, Government of India</h6>
+          </div>
+          <div class="col-md-2">
+            <p class="card-text">July 2017 - Present</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row g-0">
+          <div class="col-md-10">
+            <h5 class="card-title">Madhav Ram Inter College, Ughaiti, Badaun</h5>
+            <p class="card-text">Class XII</p>
+          </div>
+          <div class="col-md-2">
+            <p class="card-text">2013-2015</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row g-0">
+          <div class="col-md-10">
+            <h5 class="card-title">Hansvahini Inter College, Ughaiti, Badaun</h5>
+            <p class="card-text">Class X</p>
+          </div>
+          <div class="col-md-2">
+            <p class="card-text">2012-2013</p>
+          </div>
+        </div>
+        <br>
       </div>
-
+    </div>
     </section>
     <!-- Projects -->
-    <section>
-      <h3 class="mt-5 text-center">Projects</h3>
-      <div class="container">
-        <div  class="shadow p-3 mb-5 bg-white rounded" style="height: 100px;">Small shadow</div>
-        <div  class="shadow p-3 mb-5 bg-white rounded" style="height: 100px;">Small shadow</div>
-        <div  class="shadow p-3 mb-5 bg-white rounded" style="height: 100px;">Small shadow</div>
-      </div>
-    </section>
-    <!-- Skill -->
-    <section>
-      <h3 class="mt-5 text-center">Skill</h3>
-      <div class="container">
-        <div class="shadow-lg p-3 mb-5 mt-5 bg-white rounded">
-          <div class="w-100 mt-5" style="height: 300px;">
-            <div class="row">
-              <div class="col-md-6">
-                <h5 class="card-title">About</h5>
-              </div>
-              <div class="col-md-6">
-                <h5 class="card-title">Basic Information</h5>
+    <section style="background-color: rgb(226, 226, 226);">
+      <br><br>
+      <h3 class="text-center">Projects<hr size="3" class="mt-3" style="width: 20%; margin: auto;"></h3>
+      <div class="container" style="width: 60%;">
+        <div class="shadow p-3 mb-5 bg-white rounded">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Iiitdmj-logo.jpg"  alt="..." style="width: 100%; height:100%;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Course Management Module(College ERP) (January 2020 - Present)</h5>
+                <p class="card-text" style="font-family: 'Open Sans', sans-serif;">Working on course management module for IIITDM.<br>
+                  Used-Python/Django.<br></p>
+                  <a href="https://github.com/ansh9690/Fusion" role="button" class="btn btn-light">View Project</a>
               </div>
             </div>
           </div>
         </div>
+        <div class="shadow p-3 mb-5 bg-white rounded">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="ict.png"  alt="..." style="width: 100%; height:100%">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Electronics and ICT Academy website project for college (December 2019 - Present)</h5>
+                <p class="card-text" style="font-family: 'Open Sans', sans-serif;">Our aim is to develop an E learning portal which would provide a way for college faculties to upload their courses and create Online classrooms.<br>
+                  Tools used for development: Python/Django, MySQL.<br>
+                  Used-JavaScript,Bootstrap 4.</p>
+                  <a href="https://github.com/ansh9690/" role="button" class="btn btn-light">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow p-3 mb-5 bg-white rounded">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="waste.jpg"  alt="..." style="width: 100%; height:100%;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Innovative Waste Management System(August 2019 - Present)</h5>
+                <p class="card-text" style="font-family: 'Open Sans', sans-serif;">Our Aim is to develop an innovative waste management system, with the plan of planting dustbins at
+                  various points over in a particular region, supported by a Reward Generation System for contributing
+                  to cleanliness, which would also encourage people to contribute more towards cleanliness of that region.</p>
+                <!-- <a href="https://github.com/ansh9690/Fusion" role="button" class="btn btn-light">View Project</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
       </div>
     </section>
-    <!-- Contact -->
+    
+    <!-- Skill -->
     <section>
-      <h3 class="mt-5 text-center">Contact</h3>
-      <div class="container">
-        <form action="mailto:anshuprakash@gmail.com" method="post" enctype="text/plain">
-          <label class="form-label">Email</label>
-          <input type="email" class="form-control" name="Email">
-          <label >Example textarea</label>
-          <textarea class="form-control" name="Content" rows="3"></textarea>
-          <button class="btn btn-succes">Send</button>
+      <br><br>
+      <h3 class="text-center">Skills<hr size="3" class="mt-3" style="width: 20%; margin: auto;"></h3>
+        <div class="container mb-5" style="padding-left: 15%;">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>PROGRAMMING LANGUAGES</h5>
+              <h5 class="my-3">TOOLS/FRAMEWORK</h5>
+              <h5 class="my-3" >DATABASE</h5>
+              <h5 class="my-3">FAMILIAR</h5>
+              <h5 class="my-3">COURSE WORK</h5>
+            </div>
+            <div class="col-md-1 vl"></div>
+            <div class="col-md-7">
+              <p class="card-text">Python, C Language , Java, C++, JavaScript.</p>
+              <p class="card-text">Django(Python), Django Rest Framework, REST API.</p>
+              <p class="card-text">MySQL, PostgreSQL</p>
+              <p class="card-text">HTML, CSS, Bootstrap4, GIT.</p>
+              <p class="card-text">Data Structure and Algorithms,DBMS,Machine Learning</p>
+            </div>
+          </div>
+        </div> 
+    </section>
+    <!-- Contact -->
+    <section style="background-color: black;">
+      <br>
+      <br>
+      <h3 class="text-white text-center">Contact</h3>
+      <div class="container" style="width: 50%;">
+        <form action="mailto:anshuprakash8445@gmail.com" method="post" enctype="text/plain">
+          <input type="email" class="form-control" name="Email" placeholder="Email">
+          <textarea class="form-control my-3" name="Content" rows="4" placeholder="Enter message"></textarea>
+          <button class="btn btn-outline-light  mt-1 mb-4">Send</button>
         </form>
       </div>
     </section>
     <!-- footer -->
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <div class="col-md">
+          <!-- Social links -->
+          <div class="social-icons text-md-right">
+            <a href="https://www.linkedin.com/in/anshu-prakash-527443149/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/ansh9690" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/anshuprakash_" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/_ansh__1/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </footer>    
 
